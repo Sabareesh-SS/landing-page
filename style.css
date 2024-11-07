@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-image: url(img/shirakawa-go-3968395_1920.jpg);
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.header{
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:7%;
+    width:100%;
+    background-color: rgba(41, 41, 41, 0.205);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header-text{
+    color: white;
+    font-size: xx-large;
+    height:7%;
+    width:100%;
+    position: absolute;
+    left:15px;
+}
+
+.header a{
+    top :1px;
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.slogan b{
+    font-size: 50px;
+}
+
+.slogan{    
+    margin-top: 8rem;
+    height: 30%;
+    width:50%;
+    display:flex;
+    margin-left:2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    position: absolute;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 70%;
+
+}
+button{
+    background-color:white;    
+    height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    width :150px;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    border: 10px;
+    border-radius: 15px;
+    border-color: aqua;
+    
+}
+
+.img{
+    margin-left: 50%;
+    margin-top: 30%;
+    height: 30%;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.dispimg{
+    height: 20%;
+    width: 50%;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dispimg img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 3px;
+    border:3px solid rgb(255, 255, 255);
+}
