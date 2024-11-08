@@ -8,7 +8,7 @@ body{
 }
 
 .header{
-    margin-left: 7rem;
+    padding-left: 7rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
