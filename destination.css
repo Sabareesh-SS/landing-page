@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-image: url(img/water-3354063_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.header {
+    padding-left: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    background-color: rgba(41, 41, 41, 0.205);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header-text {
+    color: white;
+    font-size: xx-large;
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    left: 15px;
+}
+
+.header a {
+    top: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    z-index: 10;
+}
+
+.cities a{
+    color: white;
+    text-decoration: none;
+}
+
+.places{
+    margin-top: 5px;
+    border: 4px solid;
+    border-radius: 20px;
+    padding: 2px;
+    height: 450px;
+    width: 300px;
+    border-color: rgb(0, 0, 0);
+}
+
+.places img{
+    margin-left: 5px;
+    border-radius: 20px;
+    width: 290px;
+    height: 290px;
+}
+
+.cities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wanttogo{
+    color: white;
+    margin-left: 65px;
+}
+.wanttogo p{
+    font-size: large;
+    margin-left: 20px;
+}
+
+.places h2{
+    margin-left: 5px;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.places p{
+    margin-left: 5px;
+
+}
